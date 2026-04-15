@@ -27,8 +27,8 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0.5em 1em;
-    font-family: $sans-serif-narrow;
+    padding: 0.2rem 1rem;
+    font-family: $global-font-family;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -59,23 +59,24 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  font-size: 0.98rem;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 1.25rem;
     font-weight: 700;
   }
 }
 
 .masthead__menu-item.selected a {
   color: var(--global-text-color);
-  font-weight: 700;
-  border-bottom: 2px solid var(--global-text-color);
+  font-weight: 600;
+  border-bottom: 1px solid var(--global-text-color);
   pointer-events: none; /* Move this here */
   cursor: default; /* Move this here too */
 }
 
 .masthead__menu-item.selected a:hover {
   color: var(--global-text-color);
-  border-bottom: 2px solid var(--global-text-color);
+  border-bottom: 1px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
