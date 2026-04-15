@@ -12,13 +12,13 @@ redirect_from:
     <p class="home-hero__eyebrow">Academic Homepage</p>
     <h1>Lin Fu</h1>
     <p class="home-hero__lead">
-      Graduate student at Zhejiang University, working on multimodal large models,
-      multimodal understanding, reasoning, and practical applications.
+      ZJU Master
     </p>
     <p class="home-hero__summary">
-      I am interested in building reliable multimodal systems that can perceive,
-      reason, and assist in real-world settings. I am always happy to discuss
-      research ideas, collaboration opportunities, and interesting problems.
+      I am currently a master&apos;s student at Zhejiang University, and my main
+      research areas are multimodal large models, LLMs, and generative models.
+      I am currently working closely with
+      <a href="https://yilunzhao.github.io/">Yilun Zhao</a>.
     </p>
     <div class="home-hero__actions">
       <a class="home-chip home-chip--primary" href="mailto:22447022@zju.edu.cn">Email Me</a>
@@ -34,22 +34,21 @@ redirect_from:
       <p class="home-hero__panel-title">Current Focus</p>
       <ul class="home-hero__highlights">
         <li>Multimodal large models</li>
-        <li>Understanding and reasoning</li>
-        <li>Research-oriented applications</li>
+        <li>LLMs</li>
+        <li>Generative models</li>
       </ul>
     </div>
   </aside>
 </section>
 
 <section class="home-grid">
-  <div class="home-card">
-    <p class="home-card__label">Research</p>
-    <h2>What I work on</h2>
-    <p>
-      My research centers on multimodal large models, especially how models align
-      perception with reasoning and become more useful in downstream tasks.
-    </p>
-  </div>
+    <div class="home-card">
+      <p class="home-card__label">Research</p>
+      <h2>What I work on</h2>
+      <p>
+      My research focuses on multimodal large models, LLMs, and generative models.
+      </p>
+    </div>
 
   <div class="home-card">
     <p class="home-card__label">Contact</p>
@@ -60,6 +59,9 @@ redirect_from:
     </p>
     <p class="home-card__contact">
       <strong>Email:</strong> <a href="mailto:22447022@zju.edu.cn">22447022@zju.edu.cn</a>
+    </p>
+    <p class="home-card__contact">
+      <strong>Collaborator:</strong> <a href="https://yilunzhao.github.io/">Yilun Zhao</a>
     </p>
   </div>
 </section>

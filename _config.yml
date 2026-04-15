@@ -3,7 +3,7 @@ site_theme               : "default"
 title                    : "Lin Fu"
 title_separator          : "-"
 name                     : &name "Lin Fu"
-description              : &description "Lin Fu's academic homepage, focusing on multimodal large models and related research."
+description              : &description "Lin Fu's academic homepage, focusing on multimodal large models, LLMs, and generative models."
 url                      : "https://fu-fu-fu-fu.github.io"
 baseurl                  : ""
 repository               : "Fu-Fu-Fu-Fu/Fu-Fu-Fu-Fu.github.io"
@@ -12,7 +12,7 @@ author:
   avatar           : "profile.png"
   name             : "Lin Fu"
   pronouns         :
-  bio              : "I am a graduate student at Zhejiang University. My research focuses on multimodal large models, with interests in multimodal understanding, reasoning, and related applications."
+  bio              : "ZJU Master. My research focuses on multimodal large models, LLMs, and generative models. I am currently working closely with Yilun Zhao."
   location         : "Hangzhou, Zhejiang, China"
   employer         : "Zhejiang University"
   uri              :
