@@ -14,7 +14,11 @@ author_profile: true
 
 {% include base_path %}
 
-{% if site.publication_category %}
+{% assign publication_count = site.publications | size %}
+
+{% if publication_count == 0 %}
+<p class="publications__empty">Selected publications will appear here soon.</p>
+{% elsif site.publication_category %}
   {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
