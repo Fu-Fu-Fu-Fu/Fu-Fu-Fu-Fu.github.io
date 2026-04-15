@@ -6,7 +6,10 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-You can also find my articles on [my Google Scholar profile]({{ site.author.googlescholar }}).
+<p class="publications__intro">
+  You can also find my articles on
+  <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
+</p>
 {% endif %}
 
 {% include base_path %}
@@ -19,10 +22,7 @@ You can also find my articles on [my Google Scholar profile]({{ site.author.goog
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-## {{ category[1].title }}
-
-* * *
-
+<h2 class="archive__subtitle">{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
